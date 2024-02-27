@@ -45,18 +45,6 @@ interface Writable{
 }
 
 
-{
-  addHand : function(hand) {
-
-  }
-} as Writable
-
-
-{
-  hand: new Hand(),
-}
-
-
 class Person implements Walkable, Thinkable, Writable {
   head
   hand
